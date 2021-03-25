@@ -1,0 +1,53 @@
+/* =====================
+  Base Styles
+===================== */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* =====================
+  Layout Styles
+===================== */
+
+.main-header {
+    padding: 10px 0;
+    text-align: center;
+    background: #2196f3;
+    color: #fafafa;
+}
+
+.main-nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.main-nav a {
+    display: block;
+    padding: 10px 15px;
+    text-align: center;
+    background: #fbe53d;
+    color: #212121;
+}
+
+.main-content {
+    padding: 0 1em;
+}
+
+.main-footer {
+    margin-top: 30px;
+    padding: 10px 0;
+    text-align: center;
+    background: #e0e0e0;
+    color: #424242;
+}
