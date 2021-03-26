@@ -1,4 +1,11 @@
 /* =====================
+  Imports
+===================== */
+
+/* Google Fonts - Roboto and Roboto Mono */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono&display=swap');
+
+/* =====================
   Base Styles
 ===================== */
 
@@ -9,6 +16,9 @@
 body {
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5em;
+    color: #212121;
 }
 
 a {
@@ -20,10 +30,14 @@ a {
 ===================== */
 
 .main-header {
-    padding: 10px 0;
+    padding: 20px 0;
     text-align: center;
-    background: #2196f3;
+    background: center / cover no-repeat url('../img/placeimg_1000_500_nature.jpg');
     color: #fafafa;
+}
+
+.clock {
+    font-family: 'Roboto Mono', monospace;
 }
 
 .main-nav ul {
@@ -36,8 +50,8 @@ a {
     display: block;
     padding: 10px 15px;
     text-align: center;
-    background: #fbe53d;
-    color: #212121;
+    background: #2196f3;
+    color: #fafafa;
 }
 
 .main-content {
