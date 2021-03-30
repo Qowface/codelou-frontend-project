@@ -71,11 +71,33 @@ a {
   Media Queries
 ===================== */
 
-@media (min-width: 769px) {
+@media (min-width: 800px) {
 
     .main-nav ul {
         display: flex;
         justify-content: space-evenly;
+    }
+
+}
+
+@media (min-width: 1000px) {
+
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .col {
+        max-width: 50%;
+        padding: 0 20px;
+    }
+
+}
+
+@media (min-width: 1200px) {
+
+    .col {
+        flex: 1;
     }
 
 }
