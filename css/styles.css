@@ -76,6 +76,23 @@ a {
     border-radius: .3em;
 }
 
+.bookmarks ul {
+    padding: 0;
+    list-style: none;
+}
+
+.bookmarks li {
+    display: inline-block;
+    margin: .5em 0;
+}
+
+.bookmarks li a {
+    padding: .5em;
+    border-radius: .5em;
+    background: #2196f3;
+    color: #fafafa;
+}
+
 .main-footer {
     margin-top: 30px;
     padding: 10px 0;
