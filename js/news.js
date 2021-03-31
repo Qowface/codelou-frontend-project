@@ -1,3 +1,4 @@
+// Array of news article objects
 const news = [
     {
         "heading": "Article Loaded From JS",
@@ -15,9 +16,13 @@ const news = [
         "image": "img/placeimg_100_100_animals_3.jpg"
     }
 ];
+
+// Target element
 const newsElement = document.querySelector('.news');
+
 let newsHTML = '';
 
+// Loop over the news array and add HTML for each article
 news.forEach(function(article) {
     newsHTML += `
         <article>
@@ -28,4 +33,5 @@ news.forEach(function(article) {
     `;
 });
 
+// Append HTML to the page
 newsElement.innerHTML += newsHTML;
