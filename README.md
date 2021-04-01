@@ -14,7 +14,7 @@ This is my project for the Code Louisville Front-End Web Development course. It 
         * Flexbox is used for the horizontal navigation, the two and three column layouts, and for sticking the footer to the bottom of the page.
 * JS Features:
     * *Create and populate a JavaScript array with one or more values and display the contents of some or all of the array on your page.*
-        * The values from the arrays set in **news.js** and **bookmarks.js** are displayed on the page.
+        * The values from the arrays set in **news.js** and **bookmarks.js**, as well as a random quote from the array in **quote.js**, are displayed on the page.
     * *Create a Javascript loop that dynamically displays HTML on your page - for example displaying a number of list items \<li> based on how many times you loop.*
         * This is also demonstrated in **news.js** and **bookmarks.js**, as they loop over the arrays to generate the HTML output to the page.
     * *Create at least 3 variables (var, const, or let), set their values in JavaScript, and display the values somewhere on your page.*
