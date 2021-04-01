@@ -1,6 +1,6 @@
-# CodeLou Front-End Project
+# New Tab Dashboard
 
-This is my project for the Code Louisville Front-End Web Development course. It is a dashboard / home page designed to give you information at a glance. As this is only a front-end, there is a lot of placeholder data.
+This is my project for the Code Louisville Front-End Web Development course. It is a dashboard / home page / new tab page designed to give you information at a glance. It includes a greeting based on time of day, a clock, a randomized quote, news articles, and bookmarks. As this is only a front-end project, placeholder data is used.
 
 ## Included Features:
 * Media Queries:
