@@ -66,6 +66,26 @@ a {
     padding: 0 1.5em;
 }
 
+.quote figure,
+.quote blockquote {
+    margin: 0;
+}
+
+.quote p {
+    padding: 20px;
+    background: #e0e0e0;
+}
+
+.quote a {
+    float: right;
+    font-size: .5em;
+    padding: .5em;
+    border-radius: .5em;
+    background: #2196f3;
+    color: #fafafa;
+    cursor: pointer;
+}
+
 .news article {
     min-height: 100px;
 }
