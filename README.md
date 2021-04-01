@@ -2,6 +2,8 @@
 
 This is my project for the Code Louisville Front-End Web Development course. It is a dashboard / home page / new tab page designed to give you information at a glance. It includes a greeting based on time of day, a clock, a randomized quote, news articles, and bookmarks. As this is only a front-end project, placeholder data is used.
 
+https://qowface.github.io/new-tab-dashboard/
+
 ## Included Features:
 * Media Queries:
     * Starting at 800px, the navigation is switched from a vertical layout to a horizontal layout using flexbox.
